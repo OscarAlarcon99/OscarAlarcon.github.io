@@ -569,6 +569,84 @@ h6 {
     transition: .3s;
 }
 
+/* Portafolio */
+
+#porta{
+    grid-row: 3;
+    grid-column: 1 / 3;
+    text-align: center;
+    margin: 4rem auto;
+    height: 60rem;
+    width: 85rem;
+    background-color: var(--bgclr);
+    border-radius: 3%;
+    box-shadow: rgba(200, 100, 111, 1) 0 .7rem 2.9rem 0;
+}
+
+.porta__tt {
+    margin-top:5rem;
+}
+
+.porta__tt2 {
+    font-family: var(--fuenteSub);
+    font-size: 2rem;
+    margin-top: 4rem;
+    margin-bottom: 0;
+
+}
+
+.porta__info {
+
+    margin-top: 4rem;
+    margin-bottom: 4rem;  
+    text-align: center;
+}
+
+.span {
+    font-weight: bold; 
+    margin-bottom: 2rem;
+       
+}
+
+.porta__list {
+    list-style: none;
+    padding: 0;
+}
+
+/* media portafolio*/
+
+@media (max-width: 768px) {
+    #porta {
+        grid-row: 3;
+        width: 65rem;
+        height: 62rem;
+    }
+
+    .porta__info {
+        width: 50rem;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 640px) {
+    #porta {
+        grid-row: 4;
+        width: 35rem;
+        height: 94rem;
+    }
+
+    .porta__info {
+        width: 30rem;
+    }
+
+    .porta__list li {
+        width: 30rem;
+        margin: 0 auto;
+    }
+} 
+
+
+
 /* media footer */
 
 @media (max-width: 840px) {
