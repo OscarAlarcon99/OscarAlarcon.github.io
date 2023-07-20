@@ -363,7 +363,7 @@ h6 {
     width: 85rem;
     background-color: var(--bgclr);
     border-radius: 3%;
-    box-shadow: rgba(100, 100, 111, 1) 0 .7rem 2.9rem 0;
+    box-shadow: rgba(200, 200, 111, 1) 0 .7rem 2.9rem 0;
 }
 
 .expe__tt {
@@ -576,7 +576,7 @@ h6 {
     grid-column: 1 / 3;
     text-align: center;
     margin: 4rem auto;
-    height: 60rem;
+    height: 400rem;
     width: 85rem;
     background-color: var(--bgclr);
     border-radius: 3%;
